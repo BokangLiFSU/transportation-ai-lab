@@ -1,0 +1,51 @@
+/* Typography refinement, 2026-11-02. Keep reviewed.css and its geometry intact.
+   This layer changes only font size, weight, line height and letter spacing. */
+@media screen {
+  body { font-size: 17px; line-height: 1.65; }
+  h1, .home-intro h1 { font-size: 32px; line-height: 1.25; letter-spacing: -.02em; }
+  h2, .agenda-overview h2, .people-group > h2,
+  .project-copy h2, .detail-layout > div > h2 { font-size: 24px; line-height: 1.3; }
+  h3 { font-size: 20px; line-height: 1.4; }
+  .home-intro p { font-size: 17px; line-height: 1.65; }
+  .lead { font-size: 18px; line-height: 1.55; }
+  .research-prose p, .project-copy > p { line-height: 1.7; }
+  .home-areas h3, .related-project h3, .paper h3 { font-size: 19px; line-height: 1.4; }
+  .home-areas p, .paper-summary { font-size: 16px; line-height: 1.6; }
+  .person h3, .former-profile h3 { font-size: 24px; line-height: 1.3; }
+  .person-role, .former-current, .person-training { font-size: 14px; line-height: 1.55; }
+  .person-focus { font-size: 15px; line-height: 1.55; }
+  .campus-faculty-grid h3 { font-size: 21px; line-height: 1.3; }
+  .campus-faculty-grid p { font-size: 15px; line-height: 1.6; }
+  .campus-faculty-grid .campus-role { font-size: 13px; line-height: 1.55; }
+  .campus-faculty-grid .campus-expertise { font-size: 14px; font-weight: 600; }
+  .aside-title { font-size: 18px; line-height: 1.35; }
+  .detail-layout > aside a, .resource-index, .project-facts,
+  .directory-facts, .person-links, .resource-links { font-size: 14px; line-height: 1.55; }
+  .project-facts dt { font-size: 13px; line-height: 1.45; }
+  .fine, .paper-meta, .paper-links { font-size: 14px; line-height: 1.55; }
+  .authors { font-size: 15px; line-height: 1.6; }
+  figcaption, .direction-image figcaption { font-size: 13px; line-height: 1.5; }
+  .workflow-columns h3 { font-size: 16px; line-height: 1.35; }
+  .workflow-columns p { font-size: 14px; line-height: 1.6; }
+  .person-work h4 { font-size: 14px; line-height: 1.4; }
+  .person-work li > span, .project-people small { font-size: 13px; line-height: 1.5; }
+  .campus-faculty-grid .person-work li > a { font-size: 14px; }
+  .resource-entry h3 { font-size: 20px; line-height: 1.4; }
+  #main-nav a { font-size: 16px; }
+}
+
+@media screen and (max-width: 950px) {
+  #main-nav a { font-size: 15px; }
+}
+
+@media screen and (max-width: 700px) {
+  body { font-size: 16px; line-height: 1.65; }
+  h1, .page-head h1, .home-intro h1 { font-size: 28px; line-height: 1.25; }
+  h2, .agenda-overview h2, .people-group > h2,
+  .project-copy h2, .detail-layout > div > h2 { font-size: 22px; }
+  .lead, .home-intro p { font-size: 17px; }
+  .person h3, .former-profile h3 { font-size: 22px; }
+  .campus-faculty-grid h3 { font-size: 20px; }
+  .campus-faculty-grid p, .former-profile p { font-size: 15px; }
+  .person-links a { font-size: 14px; }
+}
