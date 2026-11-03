@@ -1,0 +1,12 @@
+/* Layout alignment. */
+.home-intro{align-items:start}
+.home-intro>.home-photo{margin:0}
+.home-copy>p:last-child{margin-bottom:0}
+.agenda-overview .direction-image{margin:0}
+.project-detail{align-items:start}
+.project-copy>.resource-note:first-child{margin-top:0}
+.project-copy>.resource-note>h2:first-child{margin-top:0}
+.project-directory article>p{margin-top:0}
+@media(min-width:701px){.home-columns>.news-sidebar{padding-top:0}}
+@media(min-width:1051px){.home-copy{display:flex;flex-direction:column;align-self:stretch}.home-copy>.group-lead{margin-top:auto;padding-top:18px}}
+@media(max-width:950px){.home-intro{grid-template-columns:1fr}}
